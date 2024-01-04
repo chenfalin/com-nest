@@ -16,7 +16,7 @@ import { APP_GUARD } from '@nestjs/core';
       port:3306,
       username:"root",
       password:"123456",
-      database:"nestjs",
+      database:"checkdata",
       autoLoadEntities:true,
       synchronize:true
     }),
