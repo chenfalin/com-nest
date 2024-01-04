@@ -17,6 +17,7 @@ import { APP_GUARD } from '@nestjs/core';
       username:"root",
       password:"123456",
       database:"checkdata",
+      
       autoLoadEntities:true,
       synchronize:true
     }),
